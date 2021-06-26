@@ -1,0 +1,163 @@
+@media screen and (max-width: 1250px) {
+
+    body{
+        /* overflow: hidden; */
+    }
+    
+
+    header{
+        position: absolute;
+        top: 10px;
+        width: 100vw;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: column;
+        background-color: #0000;
+        align-items: center;
+        text-align: center;
+        
+        /* justify-content: flex-start; */
+    }
+    .logo {
+        display: flex;
+        padding: 0 0px 0 0px;
+        
+    }
+    .logo h1{
+        font-size: 1.1rem;
+        font-family: 'Montserrat', sans-serif;
+        
+        /* color: #fb3640; */
+        
+    }
+    .logo img{
+        width: 25px;
+    
+        
+    }
+    .navbar-item{
+        padding: 0 0px;
+    }
+    
+    .navbar-item a{
+        /* padding: 0 25px; */
+        padding: 0px 15px;
+        margin-top: 15px;
+        
+        font-size: 0.7rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar-item a:hover{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .main-img img{
+        /* position: absolute;
+        top: 0;
+        z-index: -1;
+        overflow: hidden; */
+        width: 100vw;
+        height: 40vh;
+        
+    }
+    .main-content{
+        visibility: hidden;
+        width: 25vw;
+        position: absolute;
+        top: 10vh;
+        left: 100px;
+        margin: 20vh 0 0 100px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.3rem;
+        line-height: 35px;
+    }
+    .main-content h1{
+        font-family: 'Montserrat', sans-serif;
+        margin: 20px 0;
+    }
+    
+    #star{
+        color: #cf9f46;
+    }
+    .main-btn{
+        width: 150px;
+        height: 40px;
+        margin: 35px 20px 0 0;
+        border: 0px;
+        border-radius: 4px;
+        cursor: pointer;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.9rem;
+        
+    }
+    #red-btn{
+        background-color: #e30914;
+    }
+    #red-btn:hover{
+      background-color: #fb3640;
+    }
+    #info-btn{
+        background-color: black;
+    }
+    #info-btn:hover{
+        
+        background-color: white;
+        color: black;
+    }
+    
+    .movies{
+        background-color: #1b1717;
+        margin: -5px 0 0 0;
+        width: 100vw;
+    
+    }
+    
+    .between{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        
+    }
+    .between-items h1{
+        font-size: 0.7rem;
+    }
+    .between-items h1:hover{
+        font-size: 0.9rem;
+    
+    }
+    .heading-space{
+        font-size: 0.8rem;
+        margin: 0 0 20px 40px;
+    }
+    .between-items img{
+        width: 75px;
+        height: 115px;
+    }
+    .between-items p{
+        font-size: 0.6rem;
+        margin: 0 0 15px 0;
+    }
+    .between-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .icon{
+        background-color: #1b1717 ;
+        height: 5vh;
+    }
+    .icon i{
+        padding: 0 15px;
+        font-size: 0.9rem;
+        
+    }
+    .copy{
+
+        font-size: 0.7rem;
+    
+    }
+}
